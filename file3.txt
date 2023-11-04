@@ -1,0 +1,2 @@
+menambahkan file3
+baris 2 di file 3
