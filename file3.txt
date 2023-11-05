@@ -1,2 +1,3 @@
 menambahkan file3
 baris 2 di file 3
+belajar git di file 3
