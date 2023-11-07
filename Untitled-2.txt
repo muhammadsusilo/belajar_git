@@ -1,0 +1,16 @@
+551fd46 (HEAD -> master) merubah file 1
+c531546 merubah nama file2
+3c0d186 menghapus file3 txt
+48b89a3 melakukan file 2 dan file 3
+39af0bd melakukan perubahan di file 1
+4ae22d9 menambahkan file 2 dan file 3 txt
+0c9e25a menambahkan  file1.txt
+
+git reset --soft c531546
+git reset --soft 551fd46
+
+git reset --mixed c531546
+git reset --mixed 551fd46
+
+git reset --hard c531546
+git reset --hard 551fd46
