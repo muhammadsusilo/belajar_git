@@ -1,3 +1,5 @@
 menambahkan file2.txt
 mengubah file 2
 belajar git di file 2
+
+fitur B
