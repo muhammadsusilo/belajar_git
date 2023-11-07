@@ -6,3 +6,5 @@ fitur 2
 fitur 
 
 Belajar fitur rebase
+
+Merge squash

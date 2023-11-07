@@ -7,3 +7,4 @@ fitur b
 fitur c
 
 fitur rebase
+fitur squash
