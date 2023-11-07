@@ -4,3 +4,4 @@ belajar branch di file 1
 
 fitur a
 fitur b
+fitur c
