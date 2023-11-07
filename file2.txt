@@ -3,3 +3,4 @@ mengubah file 2
 belajar git di file 2
 
 fitur 2
+fitur B
