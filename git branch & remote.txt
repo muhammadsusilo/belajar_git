@@ -1,0 +1,38 @@
+
+git switch branch 
+git branch untuk pindah branch
+git branch -m merubah nama branch
+git branch -d namabranch  menghapus branch
+
+git merge namabranch untuk menggabungkan branch
+git merge about membatalkan merge
+git merge cherry-pick commitld /has  untuk memilih salah satu file tidak merge semuanya
+
+git tag namaVersi has untuk membuat tag
+gi tag -l untuk melihat list tag
+git checkout namatag untuk melihat snapshop sebelumnya menggunakan tag tanpa menggunakan has apabila sudah membuatnya
+git tag -d namatag untuk menghapus tag
+
+git stash push -m "keterangan/message" untuk melakukan perpindahan branch apabila belum selesai
+git stash list untuk melihat list git stash
+git stash show stasId melihat perubahan di stash
+git stash apply stashId untuk mengambil perubahan di stash
+git stash drop stash drop stashld untuk menghapus stash
+git stash clear untuk menghapus semua stash
+
+git rebase  namabranch tidak seperti merge cara rebase tidak di master / rebase mengubah ulang depannya
+git rebase master
+
+	squash pen ggabungan commit dari 10 commit jadi 1
+git merge --squash namaBranch lakukan saat merge 
+
+ssh = Secure Shell
+ssh-keygen  untuk membuat ssh key  yang digunakan untuk autentikasi ke ssh server
+.ssh
+ssh -T git@github.com
+
+git remote get-url nama untuk melihat url git
+git remote rm namaremote untuk menghapus git remote
+git push namaremote namalokalbranch untuk mengirim remote repositori
+git push namaremote lokalbranch(master):remotebranch(main) mengirim remote repository dengan branch yang berbeda
+

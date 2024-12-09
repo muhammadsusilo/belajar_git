@@ -1,0 +1,54 @@
+
+git --version  untuk mengecek versi git
+
+ * configurasi
+git config --global user.name"Muhammad Susilo"
+git config --global user.email"@gmail.com"
+
+untuk visual studio code
+git config --global core.editor "code --wait" integrasi git dan vs c
+git config --global diff.tool "default-difftool"
+git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE"
+
+git config --list --show-origin untuk mengecek status config
+
+git init untuk membuat repositori
+mkdir <name> membuat folder
+cd masuk ke folder
+git status untuk mengecek status
+
+git add menambahakan file 
+git commit -m "keterangan / deskripsi"
+git diff melihat perubahan
+git clean -f membatalkan penambahan file
+git restore namafile membatalkan/menghapus perubahan file {di working directory}
+git restore --staged namafile membatalkan/menghapus file {di staging index}
+
+git log melihat history
+git log --oneline melihat history sederhana
+git log --oneline --graph melihat * brancing
+git show has{0c9e25a} untuk melihat detail
+git diff has1 has2 untuk membandingkan komit 1 dan 2 atau untuk melihat perubahan
+git difftool has1 has2 untuk membandingkan komit 1 dan 2 atau untuk melihat perubahan divisual studio code
+
+git reset 
+--soft           git reset --soft 551fd46 {posisi reset di staging index}
+--mixed(default) git reset --mixed 551fd46 {posisi reset di working directory}
+--hard
+
+git commit --amend supaya tidak menambahkan commmit baru
+git checkout 48b89a3 -- file3.txt untuk membandingkan perubahan sebelumnya
+git checkout untuk pindah has atau master
+git branch --show-current
+git revert has mengembalikan sebelumnya
+
+git blame namafile untuk melihat siapa yang menambahkannya
+
+alias cara penggunaan
+git config --global alias.logone "log --oneline"
+git logone
+git commit --amend = untuk mengubah keterangan commit sebelum di push
+
+
+
+
